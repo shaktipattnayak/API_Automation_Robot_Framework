@@ -1,7 +1,7 @@
 *** Settings ***
-# Suite Setup     Create Posts Session
-Resource        ../resources/variables.resource
-Resource        ../resources/keywords.resource
+Suite Setup     Create Posts Session
+Resource        ../../resources/variables.resource
+Resource        ../../resources/keywords.resource
 
 *** Test Cases ***
 GET Invalid Post ID Returns 404
