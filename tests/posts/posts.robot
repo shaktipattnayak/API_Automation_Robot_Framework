@@ -1,5 +1,5 @@
 *** Settings ***
-Suite Setup     Create Posts Session
+# Suite Setup     Create Posts Session
 Resource        ../../resources/variables.resource
 Resource        ../../resources/keywords.resource
 
