@@ -1,0 +1,8 @@
+robotframework
+robotframework-requests
+requests
+PyYAML
+jsonschema
+robotframework-lint
+# robocop may have binary wheel availability issues on some platforms; install from source if needed:
+robotframework-robocop @ git+https://github.com/MarketSquare/robotframework-robocop.git
